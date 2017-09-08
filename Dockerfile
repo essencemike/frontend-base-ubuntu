@@ -46,3 +46,6 @@ RUN \
   npm install -g yarn
 
 ENV PATH /opt/pm/node_modules/.bin:$PATH/
+
+RUN apt-get install net-tools -y && \
+  apt-get install iputils-ping -y

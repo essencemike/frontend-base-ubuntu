@@ -1,6 +1,6 @@
-Frontend-base
+Frontend-base-ubuntu
 
-前端开发的 docker 基础镜像
+前端开发的 docker 基础镜像（基于 ubuntu）
 
 该镜像中包含：
   node: v8.1
